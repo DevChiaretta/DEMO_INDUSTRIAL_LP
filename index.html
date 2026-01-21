@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Automazione, software industriale e soluzioni su misura." />
+  <title>GML | Soluzioni per l’Industria</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="script" href="/script.js" />
+</head>
+
+<body>
+  <!-- Background decor -->
+  <div class="bg-blobs" aria-hidden="true">
+    <div class="blob blob-a"></div>
+    <div class="blob blob-b"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="My Home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">MY INDUSTRIAL</span>
+      </a>
+
+      <button class="hamburger" id="menuBtn" aria-label="Apri menu" aria-expanded="false" aria-controls="mobileNav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" aria-label="Navigazione principale">
+        <a href="#servizi">Servizi</a>
+        <a href="#settori">Settori</a>
+        <a href="#partner">Partner</a>
+        <a href="#manuali">Area clienti</a>
+        <a href="#contatti" class="nav-cta">Contatti</a>
+      </nav>
+    </div>
+
+    <nav class="mobile-nav" id="mobileNav" aria-label="Navigazione mobile">
+      <a href="#servizi">Servizi</a>
+      <a href="#settori">Settori</a>
+      <a href="#partner">Partner</a>
+      <a href="#manuali">Area clienti</a>
+      <a href="#contatti">Contatti</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="badge">
+            <span class="dot"></span>
+            Automazione • Software industriale • Supporto tecnico
+          </p>
+
+          <h1>
+            Soluzioni su misura per far girare
+            <span class="gradient">impianti e dati</span> 
+          </h1>
+
+          <p class="lead">
+            Sviluppiamo software, integrazioni e strumenti per l’industria: dalla messa in servizio
+            alla manutenzione evolutiva. Meno caos, più controllo.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#contatti">Richiedi una call</a>
+            <a class="btn ghost" href="#manuali">Accedi all’area clienti</a>
+          </div>
+
+          <div class="hero-highlights">
+            <div class="mini">
+              <span class="mini-title">Time-to-value</span>
+              <span class="mini-text">approccio pratico, iterativo</span>
+            </div>
+            <div class="mini">
+              <span class="mini-title">Industriale</span>
+              <span class="mini-text">robusto, documentato</span>
+            </div>
+            <div class="mini">
+              <span class="mini-title">Supporto</span>
+              <span class="mini-text">on-site e da remoto</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="card">
+            <div class="card-top">
+              <span class="chip">Pronto per</span>
+              <span class="chip chip2">IT/OT</span>
+              <span class="chip chip3">B2B</span>
+            </div>
+
+            <h3>In cosa ti aiutiamo</h3>
+            <ul class="checklist">
+              <li>Integrazioni con sistemi esistenti</li>
+              <li>Dashboard, HMI/SCADA, tool PC</li>
+              <li>Ottimizzazione processi e tracciabilità</li>
+              <li>Manualistica, area clienti, supporto</li>
+            </ul>
+
+            <a class="btn secondary full" href="#servizi">Vedi servizi</a>
+
+            <p class="muted">
+             ....text.....
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIZI / SOLUZIONI -->
+    <section class="section" id="servizi">
+      <div class="container">
+        <div class="section-head">
+          <h2>Servizi / Soluzioni</h2>
+          <p>Blocchi chiari, niente fuffa. Quello che serve davvero in officina e in ufficio.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card soft">
+            <h3>Software Industriale</h3>
+            <p>Applicazioni PC, interfacce operatore e tool dedicati. UI pulita, usabilità touch, performance.</p>
+            <ul class="bullets">
+              <li>WinForms / .NET / strumenti legacy</li>
+              <li>Restyling UI e standard grafici</li>
+              <li>Integrazione con DB/servizi</li>
+            </ul>
+          </article>
+
+          <article class="card soft">
+            <h3>Automazione & Integrazioni</h3>
+            <p>Colleghiamo macchine, sensori e sistemi informativi. Meno “rattoppi”, più metodo.</p>
+            <ul class="bullets">
+              <li>Integrazione IT/OT</li>
+              <li>Tag, logiche, diagnostica</li>
+              <li>Report e tracciabilità</li>
+            </ul>
+          </article>
+
+          <article class="card soft">
+            <h3>Supporto & Assistenza</h3>
+            <p>On-site e remoto, con documentazione e procedure. Si risolve, e si lascia meglio di prima.</p>
+            <ul class="bullets">
+              <li>Avviamenti e messa in servizio</li>
+              <li>Manutenzione evolutiva</li>
+              <li>Formazione e affiancamento</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SETTORI / APPLICAZIONI -->
+    <section class="section alt" id="settori">
+      <div class="container">
+        <div class="section-head">
+          <h2>Settori / Applicazioni</h2>
+          <p>....text......</p>
+        </div>
+
+        <div class="pill-grid">
+          <div class="pill"><span>Magazzini automatici</span><small>tracciabilità, logiche, diagnostica</small></div>
+          <div class="pill"><span>Linee di produzione</span><small>ottimizzazione e controllo</small></div>
+          <div class="pill"><span>Movimentazione</span><small>nastri, rulliere, convogliatori</small></div>
+          <div class="pill"><span>Qualità & dati</span><small>report, storicizzazioni, KPI</small></div>
+          <div class="pill"><span>Retrofit</span><small>upgrade software senza fermare tutto</small></div>
+          <div class="pill"><span>Assistenza</span><small>interventi rapidi e documentati</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTNER / CLIENTI -->
+    <section class="section" id="partner">
+      <div class="container">
+        <div class="section-head">
+          <h2>Partner / Clienti</h2>
+          <p>....text.....</p>
+        </div>
+
+        <div class="logo-wall">
+          <div class="logo-tile">LOGO</div>
+          <div class="logo-tile">LOGO</div>
+          <div class="logo-tile">LOGO</div>
+          <div class="logo-tile">LOGO</div>
+          <div class="logo-tile">LOGO</div>
+          <div class="logo-tile">LOGO</div>
+        </div>
+
+        <div class="note">
+          <p><strong>In pratica:</strong> collaboriamo con realtà industriali e system integrator. Obiettivo: far funzionare tutto, e farlo durare.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MANUALI / AREA CLIENTI -->
+    <section class="section cta" id="manuali">
+      <div class="container cta-inner">
+        <div>
+          <h2>Manuali / Area clienti</h2>
+          <p>
+            Accesso rapido a manuali, documenti tecnici e materiali riservati.
+            
+          </p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn primary" href="/login">Accedi</a>
+          <a class="btn ghost" href="#contatti">Richiedi credenziali</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATTI -->
+    <section class="section alt" id="contatti">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contatti</h2>
+          <p>Compila il form. Risposta tipicamente entro 1–2 giorni lavorativi.</p>
+        </div>
+
+        <div class="contact-grid">
+          <form class="card form" id="contactForm" novalidate>
+            <div class="field-row">
+              <div class="field">
+                <label for="name">Nome e Cognome</label>
+                <input id="name" name="name" type="text" placeholder="Es. Mario Rossi" required />
+              </div>
+              <div class="field">
+                <label for="company">Azienda</label>
+                <input id="company" name="company" type="text" placeholder="Es. GML Srl" />
+              </div>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="nome@azienda.it" required />
+              </div>
+              <div class="field">
+                <label for="phone">Telefono</label>
+                <input id="phone" name="phone" type="tel" placeholder="+39 ..." />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="message">Messaggio</label>
+              <textarea id="message" name="message" rows="5" placeholder="Raccontami cosa ti serve (contesto, urgenza, impianto/software, ecc.)" required></textarea>
+            </div>
+
+            <label class="consent">
+              <input type="checkbox" id="privacy" required />
+              <span>Accetto l’informativa privacy.</span>
+            </label>
+
+            <button class="btn primary full" type="submit">Invia richiesta</button>
+
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+
+          <aside class="card contact-info">
+            <h3>Recapiti</h3>
+            <p class="muted">3200000000</p>
+
+            <div class="info-list">
+              <div><span>Email</span><a href="mailto:info@gml.it">info@my.it</a></div>
+              <div><span>Telefono</span><a href="tel:+390000000000">+39 000 000 0000</a></div>
+              <div><span>Sede</span><p>Modena (MO), Italia</p></div>
+            </div>
+
+            <div class="map">
+              <iframe
+                title="Mappa sede"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps?q=Modena%20Italia&output=embed">
+              </iframe>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> My. Tutti i diritti riservati.</p>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Cookie</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
